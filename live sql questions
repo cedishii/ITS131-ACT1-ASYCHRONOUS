@@ -1,0 +1,121 @@
+Select AD_STUDENT_DETAILS table.
+How many attributes/columns are defined in AD_STUDENT_DETAILS table?
+answer: 5
+------------------------------------------------------------------------------------------------------
+In AD_Student_Details table, what is the data type of Column name First_Name?
+answer: Varchar2
+------------------------------------------------------------------------------------------------------
+In AD_Student_Details table, what do you think is the PK assigned to uniquely identify each record?
+answer: STUDENT ID
+------------------------------------------------------------------------------------------------------
+From the sql worksheet, type the sql script
+
+
+
+select * from ad.AD_STUDENT_DETAILS
+
+
+
+highlight the script or position your cursor at the end of the script and click on RUN
+
+How many records returned by the above sql script?
+answer: 8
+------------------------------------------------------------------------------------------------------
+
+From the sql worksheet, type the sql script
+
+
+
+select * from ad.AD_STUDENT_DETAILS
+
+
+
+highlight the script or position your cursor at the end of the script and click on RUN
+
+What are the columns visible in the output section?
+Answer: All of the Above
+------------------------------------------------------------------------------------------------------
+Which among the following SQL script will display the record of Jack?
+Answer: SELECT * FROM AD.AD_STUDENT_DETAILS WHERE FIRST_NAME = 'JACK';
+------------------------------------------------------------------------------------------------------
+Which among the following SQL scripts will display all information related to Student id.
+Answer: select * from ad.AD_STUDENT_DETAILS;
+------------------------------------------------------------------------------------------------------
+Select AD_STUDENT_COURSE_DETAILS table from schema.
+
+Click on Copy Query and paste it on the SQL Worksheet.
+
+What is the sql script appeared on the SQL Worksheet.
+Answer: 
+select 
+    "STUDENT_ID",
+    "COURSE_ID"
+from AD."AD_STUDENT_COURSE_DETAILS";
+------------------------------------------------------------------------------------------------------
+Select AD_STUDENT_COURSE_DETAILS table from schema.
+
+Click on Copy Query and paste it on the SQL Worksheet.
+
+Execute the script.
+
+How many records stored in the STUDENT_COURSE_DETAILS.
+Answer: 46
+------------------------------------------------------------------------------------------------------
+Select AD_STUDENT_COURSE_DETAILS table from schema.
+
+Which sql script should be applied if you need to display all students whose student id is greater than or equal to 710.
+Answer: select * from AD.AD_Student_Course_Details where student_id >= 710;
+------------------------------------------------------------------------------------------------------
+Select AD_STUDENT_COURSE_DETAILS table from schema.
+
+How many students are enrolled in course_code 190.
+Answers: 4
+------------------------------------------------------------------------------------------------------
+Select AD_STUDENT_COURSE_DETAILS table from schema.
+
+How many distinct Course ID/s can be found on the table.
+Answer: 14
+------------------------------------------------------------------------------------------------------
+Select AD_FACULTY_DETAILS table from schema.
+
+Display all records in ascending order by First Name.
+
+Which sql statement is appropriate to display the above requirement.
+Answer/s:
+select 
+  "FACULTY_ID",
+  "FIRST_NAME",
+  "LAST_NAME",
+  "EMAIL",
+  "PHONE_NUMBER",
+  "HIRE_DATE",
+  "JOB_ID",
+  "SALARY"
+from AD."AD_FACULTY_DETAILS" ORDER BY FIRST_NAME ASC;
+
+or 
+
+select * from AD."AD_FACULTY_DETAILS" ORDER BY FIRST_NAME ASC;
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
